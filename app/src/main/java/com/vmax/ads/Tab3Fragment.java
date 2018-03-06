@@ -64,7 +64,7 @@ public class Tab3Fragment extends Fragment {
             RelativeLayout container2 = (RelativeLayout) LayoutInflater.from(getContext())
                     .inflate(R.layout.vmax_prog_custom_native_layout, null);
             vmaxAdView.setCustomNativeAdContainer(container2);
-        vmaxAdView.setCompositeAdSize(Constants.NativeAdSize.NATIVE_AD_SIZE_FULL_WIDTH,250);
+
 
         /** Minimum requirements for AdMob templates(wxh dp)
          Small:  280x80
