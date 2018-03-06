@@ -70,14 +70,6 @@ public class Tab2Fragment extends Fragment {
             vmaxAdView.setCustomNativeAdContainer(container2);
 
 
-        /** Minimum requirements for AdMob templates(wxh dp)
-         Small:  280x80
-         Medium: 280x132
-         Large:  280x250
-         Maxmium limits for AdMob templates(wxh dp)
-         Small:  1200x612
-         Medium: 1200x1200
-         Large:  1200x1200*/
 
 
             vmaxAdView.setAdListener(new VmaxAdListener() {
