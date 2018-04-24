@@ -1,25 +1,19 @@
 package com.vmax.ads;
 
-import android.content.Context;
-import android.content.MutableContextWrapper;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.vmax.ads.R;
-import com.vmax.android.ads.api.AdContainer;
 import com.vmax.android.ads.api.VmaxAdView;
 import com.vmax.android.ads.common.VmaxAdListener;
 import com.vmax.android.ads.exception.VmaxAdError;
-import com.vmax.android.ads.util.Constants;
 
 /**
  * Created by P$ on 06-09-2017.
